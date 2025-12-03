@@ -1,4 +1,4 @@
-# FuturesLab - Crypto Futures Trading Platform
+# TradeX - Crypto Futures Trading Platform
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -13,7 +13,7 @@ This project focuses specifically on the trading interface (chart, orderbook, po
 
 | Application                       | Live Demo | Description |
 |-----------------------------------|-----------|-------------|
-| **🛍️ Futures Trading Platform ** | [**🔗 View Demo**](https://FuturesLab-futures.vercel.app/) | A frontend demo of a crypto Futures trading module |
+| **🛍️ Futures Trading Platform ** | [**🔗 View Demo**](https://TradeX-futures.vercel.app/) | A frontend demo of a crypto Futures trading module |
 
 
 
@@ -71,8 +71,8 @@ This project focuses specifically on the trading interface (chart, orderbook, po
 
 ### Clone the repository
 ```bash
-git clone https://github.com/saeed-baharikhoob/FuturesLab
-cd FuturesLab
+git clone https://github.com/saeed-baharikhoob/TradeX
+cd TradeX
 ```
 
 ### Install dependencies
@@ -109,7 +109,7 @@ npm start
 ## 📁 Project Structure
 
 ```
-FuturesLab/
+TradeX/
 ├── src/
 │   ├── app/                         # Next.js App Router
 │   │   ├── api/                    # API routes

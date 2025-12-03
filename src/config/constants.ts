@@ -1,5 +1,5 @@
 export const APP_CONFIG = {
-  APP_NAME: 'FuturesLab',
+  APP_NAME: 'TradeX',
 
   MOCK_AVAILABLE_BALANCE: 2000,
   MAX_LEVERAGE: 100,

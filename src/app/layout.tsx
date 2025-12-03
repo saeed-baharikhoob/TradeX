@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'FuturesLab - Futures Trading Platform',
+  title: 'TradeX - Futures Trading Platform',
   description: 'Advanced futures trading platform',
 }
 
