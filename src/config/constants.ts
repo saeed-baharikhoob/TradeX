@@ -1,0 +1,48 @@
+export const APP_CONFIG = {
+  APP_NAME: 'FuturesLab',
+
+  MOCK_AVAILABLE_BALANCE: 2000,
+  MAX_LEVERAGE: 100,
+  MIN_LEVERAGE: 1,
+  DEFAULT_LEVERAGE: 10,
+
+  MAX_PRICE_DEVIATION: 0.2,
+  MAX_TPSL_DEVIATION: 0.5,
+
+  MAINTENANCE_MARGIN_FACTOR: 0.9,
+
+  DEFAULT_ORDERBOOK_SIZE: 60,
+  ORDERBOOK_DISPLAY_ITEMS_BOTH: 10,
+  ORDERBOOK_DISPLAY_ITEMS_SINGLE: 20,
+
+  WS_RECONNECT_MAX_ATTEMPTS: 5,
+  WS_RECONNECT_BASE_DELAY: 3000,
+
+  LBANK_API_BASE: '/api/lbank',
+  LBANK_WS_URL: 'wss://www.lbkex.net/ws/V2/',
+
+  TICKER_REFRESH_INTERVAL: 30000,
+
+  DEFAULT_KLINE_LIMIT: 500,
+  KLINE_INTERVAL_MAP: {
+    '1m': 'minute1',
+    '3m': 'minute5',
+    '5m': 'minute5',
+    '15m': 'minute15',
+    '30m': 'minute30',
+    '1h': 'hour1',
+    '4h': 'hour4',
+    '1d': 'day1',
+    '1w': 'week1',
+  } as const,
+
+  MAJOR_COINS: ['BTC', 'ETH', 'BNB', 'SOL', 'XRP', 'ADA', 'DOGE', 'MATIC', 'DOT', 'AVAX'],
+  MAX_TRADING_PAIRS: 100,
+
+  BASE_FUNDING_RATE: 0.0001,
+  FUNDING_VOLATILITY_MULTIPLIER: 0.2,
+  MAX_FUNDING_RATE: 0.0003,
+  MIN_FUNDING_RATE: -0.0003,
+} as const
+
+export type AppConfig = typeof APP_CONFIG
