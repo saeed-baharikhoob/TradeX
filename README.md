@@ -13,7 +13,7 @@ This project focuses specifically on the trading interface (chart, orderbook, po
 
 | Application                       | Live Demo | Description |
 |-----------------------------------|-----------|-------------|
-| **🛍️ Futures Trading Platform ** | [**🔗 View Demo**](https://TradeX-futures.vercel.app/) | A frontend demo of a crypto Futures trading module |
+| **🛍️ Futures Trading Platform ** | [**🔗 View Demo**](https://trade-x-seven-khaki.vercel.app/) | A frontend demo of a crypto Futures trading module |
 
 
 
